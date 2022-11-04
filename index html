@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Monsite</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+	</head>
+	<div class="text-center">
+	<body>
+
+		<!-- ENTETE -->
+		<header>
+		<!-- PRENOM ET NOM -->
+
+		<h1>Mamitiana RAMANA</h1>
+
+		<!-- STATUT NOM DU PROJET -->
+
+		<h2>Graphiste designer, illustrateur & développeur front end</h2>
+		<!-- LOGO -->
+
+		<img src="pictures/soutien with lord.png" alt="logo" title="Ceci est mon logo" />
+		</header>
+
+		<!-- <em></em>: les élements un peu importants <strond></strong>: les éléments importants
+			<mark></mark>: marquer le texte
+			<i></i> : italique
+			<b></b> : gras
+			<u></u> : souligner -->
+
+
+		<!-- MENU -->
+
+		<nav>
+		<ul class="text-left" class="link">
+			<li><a href="index.html" title="aller à l'accueil" target="_blank"><i class="bi bi-house-door"> Accueil</i></a></li>
+			<li><a href="#projets">Projets</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		</nav>
+
+		<!-- PRESENTATION -->
+	<section>
+
+		<h3>Bienvenue</h3>
+		<!-- DESCRIPTION -->
+		<p>Je crée des <em>designs</em> et des <em>illustrations</em> pour plusieurs entreprises. <strong>Freelance</strong>, je suis <mark>front-end</mark> à mes heures perdues.</p>
+	</section>
+
+		<!-- CONTACT -->
+
+	<section>
+		<h3>Contact</h3>
+
+		<!--DESCRIPTION -->
+		<p>Si vous voulez me  contacter, n'hésitez à m'envoyer un email à <a href="mailto:">mon@site.com</a>.</p>
+	</section>
+
+	</body>
+</div>
+	<!-- FOOTER -->
+	<footer>
+		<span>2020 &copy;Mamitiana RAMANA</span>
+	</footer>
+<style>
+.text-left,li,a {
+	color:green;
+}
+</style>
+</html>
